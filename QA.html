@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="QA.CSS">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>FPC-QA website</title>
+</head>
+<body>
+    <section class="fpc-logo_name">
+        <div class="cont">
+            <div>
+                <img src="file:///C:/Users/User/Flexbox_and_Responsive_css/Flexbox/Flexbox%20Starter/vscode/random-webdesign/QA_project/pictures/fpc.png"
+                    alt="">
+            </div>
+            <span class="fpc">
+                Fortune Packaging Corporation
+            </span><br>
+            <span class="qa">
+                Quality Assurance Team
+            </span>
+        </div>
+    </section>
+    <section class="log">
+        <form class="box" action="file:///C:/Users/User/Flexbox_and_Responsive_css/Flexbox/Flexbox%20Starter/vscode/random-webdesign/QA_project/QA_monitoring.html">
+            <div class="field">
+                <span class="title">Log-in</span>
+            </div>
+            
+            <div class="field">
+                <label class="label" id="label-e">Username</label>
+                <div class="control">
+                    <input class="input" type="text" id="username" placeholder="e.alex">
+                    <div class="error1" id="username-error">Please fill up your Username!</div>
+                    <div class="error2" id="username-error2">invalid Username!</div>
+                </div>
+            </div>
+        
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                    <input class="input" id="password" type="password" placeholder="********">
+                <div class="error1" id="password-error">Please fill up your Password!</div>
+                <div class="error2" id="password-error2">invalid Password!</div>
+                </div>
+            </div>
+        
+            <button class="button is-success is-outlined is-fullwidth" type="submit">Sign-in</button>
+        </form>
+    </section>
+<script src="QA.js"></script>
+</body>
+</html>
